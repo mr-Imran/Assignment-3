@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rinterio - Interior Design Company</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/font.css">
+    <script src="https://kit.fontawesome.com/507491af5e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style/animate.css">
+    <link rel="stylesheet" href="./style/bg.css">
+
+    <!-- FAVICON -->
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/fav.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/fav.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/fav.ico">
+    <link rel="manifest" href="./assets/manifest/manifest.json">
+
+
+    <!-- META INFO FOR SEO -->
+
+    <meta name="title" content="Rinterio - Interior Design Company">
+    <meta name="description"
+        content="Rinterio is a leading interior design company that specializes in creating functional, stylish spaces for commercial and residential clients.">
+    <meta name="keywords"
+        content="interior design, home decor, commercial design, residential design, Nizam Uddin Imran, Mohammad Nizam Uddin Imran, imrann.my.id, Programing Hero">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="2 days">
+    <meta name="author" content="Mohammad Nizam Uddin Imran">
+
+    <!-- META IMAGE -->
+
+    <meta property="og:image" content="./assets/banner.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Rinterio">
+
+    <!-- OG -->
+
+    <meta property="og:title" content="Rinterio - Interior Design Company">
+    <meta property="og:description" content="Rinterio is a leading interior design company specializing in creating functional, stylish spaces for commercial and residential clients.">
+    <meta property="og:url" content="https://Rinterio.imrann.my.id">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://www.yourwebsite.com">
+
+
+
+</head>
+
+<script>
+    tailwind.config = {
+        theme: {
+            extend: {
+                colors: {
+                    clifford: '#da373d',
+                    viewdetailsbutton: '#ABEF5F80',
+                    bgcolor: '#ABEF5F', 
+                    bordercolor: '#E9E9E9',
+                    bfontclr: '#212121'
+                },
+                fontFamily: {
+                    'manrope': ['Manrope', 'sans-serif'],
+                },
+            }
+        }
+    }
+</script>
+
+
+<body class="body-font">
+    <!-- header -->
+    <header class="mx-auto pt-9 md:pt-14 bg-gradient-to-b from-[#f4f4f4] to-[#fefefe] px-5 xl:px-0">
+        <!-- navbar -->
+        <nav class="max-w-6xl mx-auto flex items-center justify-between mb-10">
+            <div class="flex gap-2 justify-center items-center self-center">
+                <div class="rounded-full w-[32px] h-[32px] bg-bgcolor  flex justify-center items-center">
+                    <i class="fa-solid fa-arrow-right -rotate-45 text-2xl"></i>
+                </div>
+                <h1 class="text-gray-900 font-extrabold text-3xl transition delay-150 duration-300 ease-in-out ">
+                    Rinterio</h1>
+            </div>
+            <div class="hidden lg:flex gap-9 text-gray-600 font-normal text-base">
+                <p
+                    class="relative group transition-colors duration-300 ease-out hover:text-[#494949] hover:font-extrabold">
+                    Home
+                    <span
+                        class="absolute left-0 bottom-[-4px] w-0 h-[2px] bg-bgcolor transition-all duration-300 ease-out group-hover:w-full"></span>
+                </p>
+                <p
+                    class="relative group transition-colors duration-300 ease-out hover:text-[#494949] hover:font-extrabold">
+                    Services
+                    <span
+                        class="absolute left-0 bottom-[-4px] w-0 h-[2px] bg-bgcolor transition-all duration-300 ease-out group-hover:w-full"></span>
+                </p>
+                <p
+                    class="relative group transition-colors duration-300 ease-out hover:text-[#494949] hover:font-extrabold">
+                    Portfolio
+                    <span
+                        class="absolute left-0 bottom-[-4px] w-0 h-[2px] bg-bgcolor transition-all duration-300 ease-out group-hover:w-full"></span>
+                </p>
+                <p
+                    class="relative group transition-colors duration-300 ease-out hover:text-[#494949] hover:font-extrabold">
+                    Blogs
+                    <span
+                        class="absolute left-0 bottom-[-4px] w-0 h-[2px] bg-bgcolor transition-all duration-300 ease-out group-hover:w-full"></span>
+                </p>
+                <p
+                    class="relative group transition-colors duration-300 ease-out hover:text-[#494949] hover:font-extrabold">
+                    Contact Us
+                    <span
+                        class="absolute left-0 bottom-[-4px] w-0 h-[2px] bg-bgcolor transition-all duration-300 ease-out group-hover:w-full"></span>
+                </p>
+            </div>
+
+
+
+            <div class="hidden md:flex justify-center items-center gap-4">
+                <div
+                    class="bg-white rounded-full border border-bordercolor h-[48px] w-[48px] flex justify-center items-center transition-all duration-300 ease-out hover:shadow-lg hover:scale-110">
+                    <i class="fa-solid fa-magnifying-glass hover:text-green-700 text-2xl"></i>
+                </div>
+
+                <div
+                    class="bg-white rounded-full border border-bordercolor h-[48px] w-[48px] flex justify-center items-center transition-all duration-300 ease-out hover:shadow-lg hover:scale-110">
+                    <i class="fa-solid fa-cart-shopping  hover:text-green-700 text-2xl"></i>
+                </div>
+
+                <div class="flex justify-center items-center">
+                    <button id="book-consult"
+                        class="text-[#1C1C1C] font-extrabold text-xl px-4 py-2 bg-bgcolor rounded-full transition-all duration-300 ease-out transform hover:shadow-lg hover:scale-105">
+                        Book Consult
+                        <i
+                            class="fa-solid fa-arrow-right -rotate-45 hover:rotate-180 ml-2 bg-[#1C1C1C] rounded-full text-white p-1"></i>
+                    </button>
+
+                </div>
+            </div>
+            <div class="lg:hidden">
+                <div class="dropdown dropdown-end">
+                    <div tabindex="0" role="button"
+                        class="btn m-1 bg-white rounded-full border border-bordercolor h-[48px] w-[48px] flex justify-center items-center">
+                        <i class="fa-solid fa-bars text-2xl"></i>
+                    </div>
+                    <ul tabindex="0"
+                        class="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow text-[#737373] font-normal text-base">
+                        <li><a>Home</a></li>
+                        <li><a>Service</a></li>
+                        <li><a>Portfolio</a></li>
+                        <li><a>Blogs</a></li>
+                        <li><a>Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- hero -->
+        <section class="max-w-6xl mx-auto flex flex-col justify-center items-center">
+            <img class="mb-6" src="./assets/banner.png" alt="" />
+            <h1 class="text-bfontclr font-extrabold text-3xl md:text-4xl lg:text-6xl text-center mb-6">
+                We Design Thoughtful, Livable Spaces
+            </h1>
+            <p class="text-[#494949] font-medium text-sm md:text-base text-center mb-8">
+                The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
+            </p>
+            <button
+                class="bg-viewdetailsbutton border border-viewdetailsbutton hover:bg-bgcolor hover:border-bgcolor hover:shadow-lg hover:font-extrabold px-6 py-3 rounded-full text-bfontclr font-bold text-xl w-full md:w-auto group transition-all duration-300 ease-out">
+                View Details
+                <i class="fa-solid fa-arrow-right -rotate-45 ml-2 bg-bgcolor 
+                rounded-full text-black p-1 transition-transform duration-300 ease-out 
+                group-hover:translate-x-1 group-hover:rotate-0"></i>
+            </button>
+
+
+        </section>
+    </header>
+    <main class="">
+        <!-- About Us -->
+        <section
+            class=" lg:px-8 bg-[#f4f4f4] mx-auto  mt-10 lg:mt-32 pb-28 relative px-5 xl:px-0 text-center lg:text-left">
+            <div class="top-8 left-72 absolute">
+                <img class="hidden lg:block" src="./assets/Vector.png" alt="" />
+            </div>
+            <div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 py-8 lg:py-24 gap-9">
+                <div>
+                    <div class="badge text-[#494949] font-bold text-base px-4 py-2 
+                    h-auto rounded-full mb-2 transition-all duration-300 ease-out group 
+                      hover:bg-bgcolor hover:text-black
+                      hover:border-bgcolor hover:shadow-lg hover:scale-105">
+
+                        <i
+                            class="fa-solid fa-arrow-right mr-2 transition-transform duration-300 ease-out group-hover:translate-x-1"></i>About
+                        Us
+                    </div>
+
+                    <h2 class="text-bfontclr font-extrabold text-2xl 
+                    lg:text-[50px] mb-4 lg:mb-6 lg:leading-[55px]
+                    
+                    ">
+                        We design thoughtful,<br />
+                        livable spaces
+                    </h2>
+                    <p class="text-[#494949] font-medium text-xs lg:text-base mb-6 lg:leading-[26px]">
+                        The barn house captivates with its blend of rustic charm and
+                        modern sophistication, featuring weathered wood, sleek metal accents.
+                    </p>
+
+                    <div class="space-y-6">
+
+                        <div class="flex gap-6 items-center bg-[#FFFFFF] p-6 rounded-2xl">
+                            <div class="self-start lg:my-auto">
+                                <img src="./assets/commercial.png" alt="" />
+                            </div>
+                            <div>
+                                <h4 class="font-extrabold text-[#494949]  text-xl text-left mb-[10px]">
+                                    Commercial
+                                </h4>
+                                <p class="text-left text-[#737373] font-medium text-sm lg:text-base ">
+                                    Creating functional, stylish spaces that elevate your
+                                    business.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="flex gap-6 items-center bg-[#FFFFFF] p-6 rounded-2xl">
+                            <div class="self-start lg:my-auto">
+                                <img src="./assets/residential.png" alt="" />
+                            </div>
+                            <div>
+                                <h4 class="text-[#494949] font-extrabold text-xl text-left mb-[10px]">
+                                    Residential
+                                </h4>
+                                <p class="text-[#737373] font-medium text-sm lg:text-base text-left">
+                                    We design dream homes that blend comfort, style, and
+                                    functionality.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <img class="h-full" src="./assets/Rectangle.png" alt="" />
+                </div>
+            </div>
+        </section>
+
+        <!-- stat section -->
+        <section class="w-full mx-auto px-4 lg:px-8 bg-[#f4f4f4] pb-24 xl:px-0">
+            <div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-4 rounded-3xl bg-white">
+                <div class="flex flex-col justify-center items-center py-14">
+                    <img src="./assets/icons/comment-01.png" alt="" />
+                    <h4 class="text-[#494949] font-extrabold text-[40px]">235+</h4>
+                    <p class="text-[#737373] font-medium text-base ">
+                        Happy Client Review
+                    </p>
+                </div>
+                <div class="flex flex-col justify-center items-center py-14">
+                    <img src="./assets/icons/departement.png" alt="" />
+                    <h4 class="text-[#494949] font-extrabold text-[40px]">50+</h4>
+                    <p class="text-[#737373] font-medium text-base">Work Departments</p>
+                </div>
+                <div class="flex flex-col justify-center items-center py-14">
+                    <img src="./assets/icons/Group 8.png" alt="" />
+                    <h4 class="text-[#494949] font-extrabold text-[40px]">30k+</h4>
+                    <p class="text-[#737373] font-medium text-base">Our Happy Client</p>
+                </div>
+                <div class="flex flex-col justify-center items-center py-14">
+                    <img src="./assets/icons/user-multiple.png" alt="" />
+                    <h4 class="text-[#494949] font-extrabold text-[40px]">307+</h4>
+                    <p class="text-[#737373] font-medium text-base">Staff Members</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- work process -->
+        <section class="w-full mx-auto px-4 lg:px-8 bg-[#f4f4f4] text-center pb-10 lg:pb-24">
+            <div class="max-w-6xl mx-auto px-5 xl:px-0">
+                <div class="badge text-[#494949] font-bold text-base px-4 py-2 h-auto 
+                rounded-full mb-2  transition-all 
+                duration-300 ease-out group hover:bg-bgcolor hover:text-black
+                 hover:border-bgcolor hover:shadow-lg hover:scale-105">
+                    <i
+                        class="fa-solid fa-arrow-right mr-2 transition-transform  duration-300 ease-out group-hover:translate-x-1"></i>How
+                    we work
+                </div>
+
+                <h2 class="text-bfontclr font-bold text-3xl lg:text-[40px] mb-6 cursor-default">
+                    Our Works Process
+                </h2>
+                <p class="text-[#494949] font-medium text-sm lg:text-base mb-8 lg:w-[80%] xl:w-[65%] mx-auto">
+                    Our team of experts is dedicated to delivering exceptional results
+                    that exceed your expectations. We follow a streamlined process to
+                    ensure your project is completed on time and within budget.
+                </p>
+                <div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
+                    <div class="flex flex-col gap-6 items-center bg-[#E7C1D3] p-6 rounded-2xl">
+                        <div class="self-start">
+                            <img src="./assets/concept.png" alt="" />
+                        </div>
+                        <div>
+                            <h4 class="text-[#1C1C1C] font-extrabold text-xl text-left mb-[10px]">
+                                Concept
+                            </h4>
+                            <p class="text-[#494949] font-medium text-base text-left">
+                                We start by understanding your vision and requirements to
+                                create a concept that aligns with your goals.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col gap-6 items-center bg-[#EFDA6E] p-6 rounded-2xl">
+                        <div class="self-start">
+                            <img src="./assets/flow-chart.png" alt="" />
+                        </div>
+                        <div>
+                            <h4 class="text-[#1C1C1C] font-extrabold text-xl text-left mb-[10px]">
+                                Design Process
+                            </h4>
+                            <p class="text-[#494949] font-medium text-base text-left">
+                                Our team of designers creates detailed plans and layouts to
+                                bring your vision to life.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col gap-6 items-center bg-[#A4DAC3] p-6 rounded-2xl">
+                        <div class="self-start">
+                            <img src="./assets/vision.png" alt="" />
+                        </div>
+                        <div>
+                            <h4 class="text-[#1C1C1C] font-extrabold text-xl text-left mb-[10px]">
+                                Supervision
+                            </h4>
+                            <p class="text-[#494949] font-medium text-base text-left">
+                                Our project managers oversee every step of the process to
+                                ensure quality and timely completion.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col gap-6 items-center bg-[#77AAEA] p-6 rounded-2xl">
+                        <div class="self-start">
+                            <img src="./assets/budget-planning.png" alt="" />
+                        </div>
+                        <div>
+                            <h4 class="text-[#1C1C1C] font-extrabold text-xl text-left mb-[10px]">
+                                Budget Planning
+                            </h4>
+                            <p class="text-[#494949] font-medium text-base text-left">
+                                We work with you to create a budget that meets your needs and
+                                ensures a successful project.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- portfolio -->
+        <section class="w-full mx-auto px-4 lg:px-8">
+            <div class="max-w-6xl mx-auto py-24 ">
+                <div class="mx-auto text-center mb-9 px-5 xl:px-0">
+                    <div
+                        class="badge text-[#494949] font-bold text-base px-4
+                     py-2 h-auto rounded-full mb-2 bg-[#ABEF5F33] border border-[#ABEF5F33]
+                      transition-all duration-300 ease-out group hover:bg-bgcolor hover:text-black hover:border-bgcolor hover:shadow-lg hover:scale-105">
+                        <i
+                            class="fa-solid fa-arrow-right mr-2 transition-transform duration-300 ease-out group-hover:translate-x-1"></i>Explore
+                        our Latest works
+                    </div>
+
+                    <h2 class="text-bfontclr font-bold text-3xl lg:text-[40px] mb-6">
+                        Our Latest Portfolio
+                    </h2>
+                    <p class="text-[#494949] font-medium text-sm lg:text-base lg:w-[80%] xl:w-[65%] mx-auto">
+                        We take pride in every project, and nothing makes us happier than
+                        hearing from our satisfied clients. Explore their stories and see
+                        how we've turned visions into reality, one home at a time.
+                    </p>
+                </div>
+                <div class="grid grid-cols-1 lg:grid-cols-12 lg:grid-rows-2 gap-x-6 gap-y-7 px-5 xl:px-0">
+                    <div
+                        class="flex flex-col lg:flex-row border lg:col-span-8 gap-x-6 p-6 rounded-3xl lg:h-56 bg-white">
+                        <div class="lg:w-[70%]">
+                            <img class="object-cover rounded-lg h-full w-full" src="./assets/img1.png" alt="" />
+                        </div>
+                        <div class="flex flex-col justify-between">
+                            <h4 class="text-[#494949] font-extrabold text-2xl mb-4 mt-4 lg:mt-0">
+                                Commercial
+                            </h4>
+                            <p class="text-[#737373] font-medium text-base mb-5">
+                                Creating functional, stylish spaces that elevate your
+                                business.
+
+                            </p>
+                            <button class="text-bfontclr font-extrabold text-xl self-start relative group">
+                                View Details
+                                <i
+                                    class="fa-solid fa-arrow-right -rotate-45 ml-2 bg-bgcolor rounded-full text-black p-1 transition-transform duration-300 ease-out group-hover:rotate-0 group-hover:translate-x-2"></i>
+                            </button>
+
+                        </div>
+                    </div>
+                    <div class="border lg:col-span-4 p-6 rounded-3xl lg:h-56 bg-white">
+                        <img class="h-full w-full" src="./assets/img2.png" alt="" />
+                    </div>
+                    <div class="lg:col-span-3 border p-6 rounded-3xl lg:h-56 bg-white">
+                        <img class="object-fill w-full h-full" src="./assets/img3.png" alt="" />
+                    </div>
+                    <div
+                        class="flex flex-col lg:flex-row border lg:col-span-6 gap-x-6 gap-y-6 p-6 rounded-3xl lg:h-56 bg-white">
+                        <div class="lg:w-[90%]">
+                            <img class="object-fill h-full w-full" src="./assets/img4.png" alt="" />
+                        </div>
+                        <div class="flex flex-col justify-between">
+                            <h4 class="text-[#494949] font-extrabold text-2xl mb-4">
+                                Residential
+                            </h4>
+                            <p class="text-[#737373] font-medium text-base mb-4">
+                                We design dream homes that blend comfort, style, and
+                                functionality, tailored to your unique lifestyle.
+                            </p>
+                            <button class="text-bfontclr font-extrabold text-xl self-start relative group">
+                                View Details
+                                <i
+                                    class="fa-solid fa-arrow-right -rotate-45 ml-2 bg-bgcolor rounded-full text-black p-1 transition-transform duration-300 ease-out group-hover:rotate-0 group-hover:translate-x-2"></i>
+                            </button>
+
+                        </div>
+                    </div>
+
+                    <div class="lg:col-span-3 border p-6 rounded-3xl lg:h-56 bg-white order-3 lg:order-last">
+                        <img class="object-fill h-full w-full" src="./assets/img5.png" alt="" />
+                    </div>
+
+                    <div class="lg:col-span-3 border p-6 rounded-3xl lg:h-56 bg-white order-last lg:hidden">
+                        <img class="object-fill h-full w-full" src="./assets/img3.png" alt="" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- news section -->
+        <section class="w-full mx-auto px-4 lg:px-8 bg-[#f4f4f4] pb-24">
+            <div class="max-w-6xl mx-auto flex flex-col items-center pt-28">
+                <div
+                    class="badge text-[#494949] font-bold text-base px-4 py-2 h-auto 
+                rounded-full mb-2 bg-[#ABEF5F33] border border-[#ABEF5F33] 
+                transition-all duration-300 ease-out group hover:bg-bgcolor hover:text-black hover:border-bgcolor hover:shadow-lg hover:scale-105">
+                    <i
+                        class="fa-solid fa-arrow-right mr-2 transition-transform duration-300 ease-out group-hover:translate-x-2"></i>Rinterio
+                    News
+                </div>
+
+                <h2 class="text-bfontclr font-bold text-3xl mt-5 lg:text-[40px] text-center mb-6 mx-5 lg:px-0">
+                    Read Our Articles and News
+                </h2>
+                <p class="text-center text-[#494949] font-medium text-sm lg:text-base lg:w-[60%] mb-8 mx-5 lg:px-0">
+                    Stay up to date with the latest trends and news in the world of
+                    interior design. Our blog features expert advice, design tips, and
+                    inspiration to help you create the home of your dreams.
+                </p>
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mx-5 lg:px-0">
+                    <!-- news 1 -->
+                    <div class="p-6 bg-white rounded-2xl">
+                        <div>
+                            <img class="w-full h-auto transition-transform duration-300 ease-out hover:scale-105"
+                                src="./assets/article1.png" alt="Article Image" />
+                        </div>
+                        <div>
+                            <div
+                                class="flex gap-x-3 text-[#737373] font-medium text-base mt-4 transition-opacity duration-300 ease-out hover:opacity-80">
+                                <!-- Date -->
+                                <div class="flex items-center space-x-2">
+                                    <img class="w-6 h-6 object-cover transition-transform duration-300 ease-out hover:scale-110"
+                                        src="./assets/icons/calendar-03.png" alt="Calendar Icon" />
+                                    <small
+                                        class="text-sm text-gray-700 transition-transform duration-300 ease-out hover:translate-x-1">July
+                                        14, 2024</small>
+                                </div>
+
+                                <!-- Author -->
+                                <div class="flex items-center space-x-2">
+                                    <img class="w-6 h-6 object-cover transition-transform duration-300 ease-out hover:scale-110"
+                                        src="./assets/icons/user-circle.png" alt="User Icon" />
+                                    <small class="transition-transform duration-300 ease-out hover:translate-x-1">By
+                                        Admin</small>
+                                </div>
+                            </div>
+                            <h5
+                                class="text-[#494949] my-2 font-extrabold text-xl transition-transform duration-300 ease-out hover:scale-105">
+                                How to choose the furniture right of your home.
+                            </h5>
+                            <p
+                                class="text-[#737373] font-medium text-base transition-opacity duration-300 ease-out hover:opacity-80">
+                                The barn house captivates with its blend of rustic charm and modern.
+                            </p>
+                            <button
+                                class="text-bfontclr font-extrabold text-lg self-start mt-4 transition-transform duration-300 ease-out hover:scale-105">
+                                Read More
+                                <i
+                                    class="fa-solid fa-arrow-right -rotate-45 ml-2 bg-bgcolor rounded-full text-black p-1 transition-transform duration-300 ease-out hover:translate-x-2 hover:rotate-0"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- news 2 -->
+                    <div class="p-6 bg-white rounded-2xl">
+                        <div class="transition-transform duration-300 ease-out hover:scale-105">
+                            <img class="w-full h-auto transition-transform duration-300 ease-out hover:scale-105"
+                                src="./assets/article2.png" alt="Article Image" />
+                        </div>
+                        <div>
+                            <div
+                                class="flex gap-x-3 text-[#737373] font-medium text-base mt-4 transition-opacity duration-300 ease-out hover:opacity-80">
+                                <div class="flex items-center space-x-2">
+                                    <img class="w-6 h-6 object-cover transition-transform duration-300 ease-out hover:scale-110"
+                                        src="./assets/icons/calendar-03.png" alt="Calendar Icon" />
+                                    <small
+                                        class="text-sm text-gray-700 transition-transform duration-300 ease-out hover:translate-x-1">July
+                                        14, 2024</small>
+                                </div>
+
+                                <div class="flex items-center space-x-2">
+                                    <img class="w-6 h-6 object-cover transition-transform duration-300 ease-out hover:scale-110"
+                                        src="./assets/icons/user-circle.png" alt="User Icon" />
+                                    <small class="transition-transform duration-300 ease-out hover:translate-x-1">By
+                                        Admin</small>
+                                </div>
+                            </div>
+                            <h5
+                                class="text-[#494949] my-2 font-extrabold text-xl transition-transform duration-300 ease-out hover:scale-105">
+                                How to choose the furniture right of your home.
+                            </h5>
+                            <p
+                                class="text-[#737373] font-medium text-base transition-opacity duration-300 ease-out hover:opacity-80">
+                                The barn house captivates with its blend of rustic charm and modern.
+                            </p>
+                            <button
+                                class="text-bfontclr font-extrabold text-lg self-start mt-4 transition-transform duration-300 ease-out hover:scale-105">
+                                Read More
+                                <i
+                                    class="fa-solid fa-arrow-right -rotate-45 ml-2 bg-bgcolor rounded-full text-black p-1 transition-transform duration-300 ease-out hover:translate-x-2 hover:rotate-0"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- news 3 -->
+                    <div class="p-6 bg-white rounded-2xl">
+                        <div>
+                            <img class="w-full h-auto transition-transform duration-300 ease-out hover:scale-105"
+                                src="./assets/article3.png" alt="" />
+                        </div>
+
+                        <div>
+                            <div
+                                class="flex gap-x-3 text-[#737373] font-medium text-base mt-4 transition-opacity duration-300 ease-out hover:opacity-80">
+                                <div class="flex items-center space-x-2">
+                                    <img class="w-6 h-6 object-cover transition-transform duration-300 ease-out hover:scale-110"
+                                        src="./assets/icons/calendar-03.png" alt="Calendar Icon" />
+                                    <small
+                                        class="text-sm text-gray-700 transition-transform duration-300 ease-out hover:translate-x-1">July
+                                        14, 2024</small>
+                                </div>
+
+                                <div class="flex items-center space-x-2">
+                                    <img class="w-6 h-6 object-cover transition-transform duration-300 ease-out hover:scale-110"
+                                        src="./assets/icons/user-circle.png" alt="User Icon" />
+                                    <small class="transition-transform duration-300 ease-out hover:translate-x-1">By
+                                        Admin</small>
+                                </div>
+                            </div>
+
+                            <h5
+                                class="text-[#494949] my-2 font-extrabold text-xl transition-transform duration-300 ease-out hover:scale-105">
+                                How to choose the furniture right of your home.
+                            </h5>
+
+                            <p
+                                class="text-[#737373] font-medium text-base transition-opacity duration-300 ease-out hover:opacity-80">
+                                The barn house captivates with its blend of rustic charm and modern.
+                            </p>
+
+                            <button
+                                class="text-bfontclr font-extrabold text-lg self-start mt-4 transition-transform duration-300 ease-out hover:scale-105">
+                                Read More
+                                <i
+                                    class="fa-solid fa-arrow-right -rotate-45 ml-2 bg-bgcolor rounded-full text-black p-1 transition-transform duration-300 ease-out hover:translate-x-2 hover:rotate-0"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- customer review -->
+        <section class="w-full px-4 pt-6 lg:px-8 mx-auto flex flex-col items-center  pb-8">
+            <div class="badge mt-5 text-[#494949] font-bold text-base px-4
+    py-2 h-auto rounded-full mb-2 bg-[#ABEF5F33] border border-[#ABEF5F33]
+     transition-all duration-300 ease-out group hover:bg-bgcolor hover:text-black
+      hover:border-bgcolor hover:shadow-lg hover:scale-105">
+                <i class="fa-solid fa-arrow-right mr-2 transition-transform duration-300 ease-out
+        group-hover:translate-x-1 "></i>
+                Customer Review
+            </div>
+
+            <h2 class="text-center text-bfontclr mt-5 font-bold text-3xl lg:text-[40px] mb-6 px-5 xl:px-0">
+                What Our Clients Say
+            </h2>
+            <p class="text-[#494949] font-medium text-sm lg:text-base mb-6 lg:w-[60%] text-center px-5 xl:px-0">
+                Our clients are at the heart of everything we do. We take pride in
+                delivering exceptional results that exceed their expectations.
+            </p>
+
+            <div class="hidden lg:block">
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 max-w-6xl px-5 xl:px-0">
+                    <div class="flex flex-col justify-center items-center bg-white rounded-2xl p-6 shadow-xl">
+                        <img src="./assets/profile/profile1.jpg" alt="" class="w-14 mb-3 rounded-full" />
+                        <h5 class="text-bfontclr font-semibold text-xl">
+                            Alex Johnson
+                        </h5>
+                        <div class="text-yellow-400 mb-3">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-[#494949] font-normal text-xs mb-6 text-center">
+                            The team exceeded our expectations with their creativity and attention to detail. Our
+                            project turned out fantastic!
+                        </p>
+                    </div>
+
+                    <div class="flex flex-col justify-center items-center bg-white rounded-2xl p-6 shadow-xl">
+                        <img src="./assets/profile/profile2.jpg" alt="" class="w-14 mb-3 rounded-full" />
+                        <h5 class="text-bfontclr font-semibold text-xl">
+                            Mia Parker
+                        </h5>
+                        <div class="text-yellow-400 mb-3">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-[#494949] font-normal text-xs mb-6 text-center">
+                            Fantastic service from start to finish. The process was smooth and the results were exactly
+                            what we hoped for. Highly recommend!
+                        </p>
+                    </div>
+
+                    <div class="flex flex-col justify-center items-center bg-white rounded-2xl p-6 shadow-xl">
+                        <img src="./assets/profile/profile3.jpg" alt="" class="w-14 mb-3 rounded-full" />
+                        <h5 class="text-bfontclr font-semibold text-xl">Samuel Lee</h5>
+                        <div class="text-yellow-400 mb-3">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-[#494949] font-normal text-xs mb-6 text-center">
+                            The design was perfect and captured exactly what we wanted. The team was attentive and
+                            professional throughout the project.
+                        </p>
+                    </div>
+
+                    <div class="flex flex-col justify-center items-center bg-white rounded-2xl p-6 shadow-xl">
+                        <img src="./assets/profile/profile4.jpg" alt="" class="w-14 mb-3 rounded-full" />
+                        <h5 class="text-bfontclr font-semibold text-xl">
+                            Sophia Turner
+                        </h5>
+                        <div class="text-yellow-400 mb-3">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-[#494949] font-normal text-xs mb-6 text-center">
+                            The team delivered outstanding work with exceptional attention to detail. Our experience was
+                            seamless and the outcome was beautiful.
+                        </p>
+                    </div>
+
+                    <div class="flex flex-col justify-center items-center bg-white rounded-2xl p-6 shadow-xl">
+                        <img src="./assets/profile/profile5.jpg" alt="" class="w-14 mb-3 rounded-full" />
+                        <h5 class="text-bfontclr font-semibold text-xl">
+                            Noah Wright
+                        </h5>
+                        <div class="text-yellow-400 mb-3">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-[#494949] font-normal text-xs mb-6 text-center">
+                            They transformed our ideas into a stunning reality. We’re thrilled with the results and the
+                            whole process was smooth.
+                        </p>
+                    </div>
+
+                    <div class="flex flex-col justify-center items-center bg-white rounded-2xl p-6 shadow-xl">
+                        <img src="./assets/profile/profile6.jpg" alt="" class="w-14 mb-3 rounded-full" />
+                        <h5 class="text-bfontclr font-semibold text-xl">Isabella Adams</h5>
+                        <div class="text-yellow-400 mb-3">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-[#494949] font-normal text-xs mb-6 text-center">
+                            Outstanding design and execution. The process was flawless and the final product is
+                            absolutely stunning.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="lg:hidden mx-5">
+                <div class="carousel carousel-center bg-neutral rounded-box max-w-[24rem] space-x-4 p-4">
+                    <div class="carousel-item">
+                        <div
+                            class="flex flex-col justify-center items-center bg-white rounded-2xl p-6 shadow-xl w-[300px]">
+                            <img src="./assets/profile1.png" alt="" class="w-14 mb-3 rounded-full" />
+                            <h5 class="text-bfontclr font-semibold text-xl">
+                                Alex Johnson
+                            </h5>
+                            <div class="text-yellow-400 mb-3">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="text-[#494949] font-normal text-xs mb-6 text-center">
+                                The team exceeded our expectations with their creativity and attention to detail. Our
+                                project turned out fantastic!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div
+                            class="flex flex-col justify-center items-center bg-white rounded-2xl p-6 shadow-xl w-[300px]">
+                            <img src="./assets/profile2.jpg" alt="" class="w-14 mb-3 rounded-full" />
+                            <h5 class="text-bfontclr font-semibold text-xl">
+                                Mia Parker
+                            </h5>
+                            <div class="text-yellow-400 mb-3">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="text-[#494949] font-normal text-xs mb-6 text-center">
+                                Fantastic service from start to finish. The process was smooth and the results were
+                                exactly what we hoped for. Highly recommend!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div
+                            class="flex flex-col justify-center items-center bg-white rounded-2xl p-6 shadow-xl w-[300px]">
+                            <img src="./assets/profile3.jpg" alt="" class="w-14 mb-3 rounded-full" />
+                            <h5 class="text-bfontclr font-semibold text-xl">Samuel Lee</h5>
+                            <div class="text-yellow-400 mb-3">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="text-[#494949] font-normal text-xs mb-6 text-center">
+                                The design was perfect and captured exactly what we wanted. The team was attentive and
+                                professional throughout the project.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div
+                            class="flex flex-col justify-center items-center bg-white rounded-2xl p-6 shadow-xl w-[300px]">
+                            <img src="./assets/profile4.jpg" alt="" class="w-14 mb-3 rounded-full" />
+                            <h5 class="text-bfontclr font-semibold text-xl">
+                                Sophia Turner
+                            </h5>
+                            <div class="text-yellow-400 mb-3">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="text-[#494949] font-normal text-xs mb-6 text-center">
+                                The team delivered outstanding work with exceptional attention to detail. Our experience
+                                was seamless and the outcome was beautiful.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div
+                            class="flex flex-col justify-center items-center bg-white rounded-2xl p-6 shadow-xl w-[300px]">
+                            <img src="./assets/profile5.jpg" alt="" class="w-14 mb-3 rounded-full" />
+                            <h5 class="text-bfontclr font-semibold text-xl">
+                                Noah Wright
+                            </h5>
+                            <div class="text-yellow-400 mb-3">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="text-[#494949] font-normal text-xs mb-6 text-center">
+                                They transformed our ideas into a stunning reality. We’re thrilled with the results and
+                                the whole process was smooth.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div
+                            class="flex flex-col justify-center items-center bg-white rounded-2xl p-6 shadow-xl w-[300px]">
+                            <img src="./assets/profile6.jpg" alt="" class="w-14 mb-3 rounded-full" />
+                            <h5 class="text-bfontclr font-semibold text-xl">Isabella Adams</h5>
+                            <div class="text-yellow-400 mb-3">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="text-[#494949] font-normal text-xs mb-6 text-center">
+                                Outstanding design and execution. The process was flawless and the final product is
+                                absolutely stunning.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Connect -->
+        <section class="w-full mx-auto px-4 lg:px-8 pb-24 pt-20 mt-5 connect-bg--dw">
+            <div class="max-w-6xl mx-auto text-center px-5 xl:px-0">
+                <div class="badge text-[#494949] font-bold text-base px-4
+                py-2 h-auto rounded-full mb-2 bg-[#ABEF5F33] border border-[#ABEF5F33]
+                 transition-all duration-300 ease-out group hover:bg-bgcolor hover:text-black
+                  hover:border-bgcolor hover:shadow-lg hover:scale-105">
+                    <i class="fa-solid fa-arrow-right mr-2 transition-transform duration-300 ease-out
+                    group-hover:translate-x-1"></i>
+                    Let's Discuss
+                </div>
+                <h2 class="text-bfontclr font-bold text-3xl lg:text-[40px] mb-6">
+                    Connect with Us
+                </h2>
+                <p class="text-[#494949] font-medium text-sm lg:text-base mb-8 lg:w-[80%] xl:w-[60%] mx-auto">
+                    We're here to help you create the home of your dreams. Contact us to
+                    schedule a consultation or learn more about our services.
+                </p>
+                <!-- row 1 -->
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
+                    <div>
+                        <input
+                            class="p-5 text-[#A0A0A0] font-medium text-base rounded-full border border-bordercolor w-full"
+                            type="text" name="" id="" placeholder="First Name*" />
+                    </div>
+                    <div>
+                        <input
+                            class="p-5 text-[#A0A0A0] font-medium text-base rounded-full border border-bordercolor w-full"
+                            type="text" name="" id="" placeholder="First Name*" />
+                    </div>
+                </div>
+                <!-- row 2 -->
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
+                    <div>
+                        <input
+                            class="p-5 text-[#A0A0A0] font-medium text-base rounded-full border border-bordercolor w-full"
+                            type="text" name="" id="" placeholder="Phone Number*" />
+                    </div>
+                    <div>
+                        <input
+                            class="p-5 text-[#A0A0A0] font-medium text-base rounded-full border border-bordercolor w-full"
+                            type="text" name="" id="" placeholder="Email Number*" />
+                    </div>
+                </div>
+                <!-- row 3 -->
+                <div>
+                    <textarea
+                        class="p-5 text-[#A0A0A0] font-medium text-base rounded-[32px] border border-bordercolor w-full mb-8"
+                        name="" id="" rows="10" placeholder="Write your message here"></textarea>
+                </div>
+                <button
+                    class="relative text-[#1C1C1C] font-extrabold text-xl px-5 py-3 bg-bgcolor rounded-full w-full transition-transform duration-300 ease-in-out hover:scale-105 hover:bg-[#9CE04F]">
+                    Send Mail
+                    <i
+                        class="fa-solid fa-arrow-right -rotate-45 ml-2 bg-[#1C1C1C] rounded-full text-white p-1 transition-transform duration-300 ease-in-out group-hover:translate-x-2"></i>
+                </button>
+
+            </div>
+        </section>
+
+
+    </main>
+    <!-- footer -->
+    <footer class="w-full mx-auto px-4 lg:px-8 bg-[#1C1C1C] mt-5">
+        <section class="max-w-6xl mx-auto text-center py-24">
+            <div class="pb-12 max-w-3xl mx-auto">
+                <div class="flex gap-2 justify-center items-center self-center">
+                    <div class="bg-bgcolor rounded-full w-[32px] h-[32px] flex justify-center items-center">
+                        <i class="fa-solid fa-arrow-right -rotate-45 text-2xl"></i>
+                    </div>
+                    <h1 class="text-bordercolor font-extrabold text-3xl">Rinterio</h1>
+                </div>
+                <p class="text-[#737373] font-medium text-base mt-4 w-[90%] mx-auto">
+                    We're a team of passionate designers and builders who love what we do.
+                    Our goal is to create beautiful, functional spaces that reflect your
+                    unique style and needs. Let's work together to bring your vision to
+                    life.
+            </div>
+
+            <div
+                class="text-bordercolor font-normal text-base flex flex-col md:flex-row md:justify-between items-center max-w-[776px] mx-auto pb-12 space-y-8 md:space-y-0">
+                <p class="hover:font-medium">Homes</p>
+                <p class="hover:font-medium">Services</p>
+                <p class="hover:font-medium">Portfolio</p>
+                <p class="hover:font-medium">Blogs</p>
+                <p class="hover:font-medium">Contact Us</p>
+            </div>
+
+            <div class="mx-5">
+                <button class="text-[#1C1C1C] transition-transform duration-300 ease-in-out hover:scale-105 hover:bg-[#9CE04F]
+                    font-extrabold text-xl px-4 py-2 bg-bgcolor rounded-full w-full md:w-auto">
+                    Book Consult<i class="fa-solid  transition-transform duration-300 ease-in-out group-hover:translate-x-2
+                         fa-arrow-right -rotate-45 ml-2 bg-[#1C1C1C] rounded-full text-white p-1"></i>
+                </button>
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>
+
+</html>
